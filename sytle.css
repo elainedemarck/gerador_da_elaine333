@@ -1,0 +1,21 @@
+.botao-gerar {
+    background-color: var(--borda);
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.2s;
+    margin-left: 10px;
+}
+
+.botao-gerar:hover {
+    background-color: #00c8ff;
+    transform: scale(1.05);
+}
+
+.botao-gerar:active {
+    transform: scale(0.95);
+}
